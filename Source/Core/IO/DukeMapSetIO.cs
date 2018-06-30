@@ -30,9 +30,9 @@ namespace mxd.DukeBuilder.IO
 
 		public override int Version { get { return 7; } }
 
-		public override int MaxWalls { get { return 8192; } }
-		public override int MaxSectors { get { return 1024; } }
-		public override int MaxSprites { get { return 4096; } }
+		public override int MaxWalls { get { return 16384; } }
+		public override int MaxSectors { get { return 4096; } }
+		public override int MaxSprites { get { return 16384; } }
 		public override float MaxSlope { get { return maxslope; } }
 		public override float MinSlope { get { return minslope; } }
 		//TODO: is that correct? 
